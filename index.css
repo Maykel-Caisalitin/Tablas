@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.descripcion {
+    font-size: 0.95rem;
+    color: #64748b;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+
+.tabla-periodicos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: rgba(231, 202, 183, 0.993);
+}
+
+
+.tabla-periodicos th {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 0.95rem;
+    border: 1px solid #334155;
+}
+
+
+.tabla-periodicos td {
+    border: 1px solid #066be7;
+    padding: 12px 15px;
+    font-size: 0.95rem;
+    vertical-align: middle;
+}
+
+
+.celda-pais {
+    font-weight: bold;
+    font-size: 1.05rem;
+    text-align: center;
+    background-color: #dacfcf;
+    color: #175cfd;
+    vertical-align: middle;
+}
+
+
+.bandera {
+    display: block;
+    margin: 8px auto auto auto;
+    width: 40px;
+    height: auto;
+    border: 1px solid #cbd5e1;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.tabla-periodicos a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.tabla-periodicos a:hover {
+    text-decoration: underline;
+    color: #1d4ed8;
+}
+
+
+.tabla-periodicos tbody tr:hover {
+    background-color: #f8fafc;
+}
